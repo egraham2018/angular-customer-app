@@ -1,25 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {ICustomer} from '../shared/interfaces';
 
 @Component({
   selector: 'app-customers-list',
   templateUrl: './customers-list.component.html'
-  // styleUrls: ['./customers-list.component.css']
 })
 export class CustomersListComponent implements OnInit {
-
-  filteredCustomers: any[] = [];
-  customersOrderTotal = 0;
-  currencyCode = 'USD';
-
-  constructor() {
-    this.filteredCustomers = [
-      {id: 1, name: 'John Doe', city: 'New York', orderTotal: 3.14, customerSince: new Date(2021, 9, 10)},
-      {id: 2, name: 'Jane Doe', city: 'New York', orderTotal: 3.14, customerSince: new Date(2021, 9, 10)}
-    ];
+  private _customers: ICustomer[] = [];
+  @Input() get customers(): ICustomer[] {
+    return this._customers;
   }
 
-  ngOnInit(): void {}
+  set customers(value: ICustomer[]) {
+    if (value) {
+      this.filteredCustomers = this._customers = value;
+      this.calculateOrders();
+    }
+  }
+
+  filteredCustomers: any[] = [];
+  customersOrderTotal: number = 0;
+  currencyCode: string = 'USD';
+
+  constructor() {}
+
+  ngOnInit() {
+
+  }
 
   calculateOrders() {
     this.customersOrderTotal = 0;
@@ -29,6 +36,6 @@ export class CustomersListComponent implements OnInit {
   }
 
   sort(prop: string) {
-    //
+    // A sorter service will handle the sorting
   }
 }

@@ -9,7 +9,7 @@ import {ICustomer} from './shared/interfaces';
 })
 export class CustomersComponent implements OnInit {
   title: string | undefined;
-  people: any[] | undefined;
+  people: ICustomer[] = [];
   isVisible = true;
 
   constructor() {}
