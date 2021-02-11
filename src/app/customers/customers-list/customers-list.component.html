@@ -16,12 +16,12 @@
       </a>
     </td>
     <td>{{ cust.city }}</td>
-    <td>{{ cust.orderTotal }}</td>
+    <td>{{ cust.orderTotal | currency }}</td>
   </tr>
   <tr *ngIf="filteredCustomers && filteredCustomers.length">
     <td colspan="2">&nbsp;</td>
     <td>
-      {{ customersOrderTotal }}
+      {{ customersOrderTotal | currency:currencyCode:'code'}}
     </td>
   </tr>
   <tr *ngIf="!filteredCustomers || !filteredCustomers.length">
