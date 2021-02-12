@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## What I Learned ##
+1. [Creating a custom pipe](https://github.com/egraham2018/angular-customer-app/commit/f83088d45f15833da6fc71f5187f8730648baefa)
+2. [Error piping and observable](https://github.com/egraham2018/angular-customer-app/commit/7ebabbb921b3759cf850dd4aa2121acdc4de68e1)
+3. [Text Filter](https://github.com/egraham2018/angular-customer-app/commit/3e2d559c147bdcab282e9627b34c37f0512ee307)
+4. [Input property to get data](https://github.com/egraham2018/angular-customer-app/commit/299de02780c5554e81dc57d9f37aca6bd610329f)
