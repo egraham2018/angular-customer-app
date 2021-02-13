@@ -20,8 +20,7 @@ export class DataService {
       );
   }
 
-  // tslint:disable-next-line:typedef
-  getCustomer(id: number) {
+  getCustomer(id: number): any {
     return this.http.get<ICustomer[]>(this.baseUrl + 'customers.json')
       .pipe(
         map(customers => {

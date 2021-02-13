@@ -11,8 +11,8 @@
   </thead>
   <tr *ngFor="let cust of filteredCustomers">
     <td>
-      <a>
-        {{ cust.name | crazycamelcase }}
+      <a [routerLink]="['/orders', cust.id]">
+        {{ cust.name | uppercase }}
       </a>
     </td>
     <td>{{ cust.city }}</td>
