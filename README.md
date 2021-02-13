@@ -33,4 +33,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 4. [Input property to get data](https://github.com/egraham2018/angular-customer-app/commit/299de02780c5554e81dc57d9f37aca6bd610329f)
 5. [Sorting table data](https://github.com/egraham2018/angular-customer-app/commit/d18efbec7511b539b392120aa87aeda063de31f7)
 6. [Adding app root routing](https://github.com/egraham2018/angular-customer-app/commit/60529e87425737c54afed15a6100e035a900612c)
-7. [Adding order routing] (https://github.com/egraham2018/angular-customer-app/commit/024df8d13066f977f506a99db31783757fd39667)
+7. [Adding order routing](https://github.com/egraham2018/angular-customer-app/commit/024df8d13066f977f506a99db31783757fd39667)
+8. [Routing back to all customers page from an order](https://github.com/egraham2018/angular-customer-app/commit/4b85b0c7a646e38174dd4ca4192fa18517657acb)
