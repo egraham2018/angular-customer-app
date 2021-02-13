@@ -31,3 +31,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 2. [Error piping and observable](https://github.com/egraham2018/angular-customer-app/commit/7ebabbb921b3759cf850dd4aa2121acdc4de68e1)
 3. [Text Filter](https://github.com/egraham2018/angular-customer-app/commit/3e2d559c147bdcab282e9627b34c37f0512ee307)
 4. [Input property to get data](https://github.com/egraham2018/angular-customer-app/commit/299de02780c5554e81dc57d9f37aca6bd610329f)
+5. [Sorting table data](https://github.com/egraham2018/angular-customer-app/commit/d18efbec7511b539b392120aa87aeda063de31f7)
+6. [Adding app routing](https://github.com/egraham2018/angular-customer-app/commit/60529e87425737c54afed15a6100e035a900612c)
